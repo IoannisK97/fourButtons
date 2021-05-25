@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityFrame">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/androidparty"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy birthday to you"
+        android:textSize="20sp"
+        android:textColor="#00F0F0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From your friend"
+        android:layout_gravity="bottom"
+        android:textSize="20sp"/>.
+    <!--Frame layout allocates an area of the
+    screen for a signle view and it mostly used to
+    hold a single child view. An attribute used on
+    this layout is the gravity which can help control
+    position of views-->
+
+</FrameLayout>

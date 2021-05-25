@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityLinear">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happt birthday to you"
+        android:textSize="16sp"
+        android:padding="9dp"/>.
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>.
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From your friend"
+        android:textSize="16sp"/>
+
+</LinearLayout>
+
+<!-- The linear layout is used when we need
+create an application which arranges the views
+in an horizontal or vertical order in a row
+or column respectively.-->
